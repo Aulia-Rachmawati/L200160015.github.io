@@ -24,10 +24,13 @@
 </ol>
 <p>&nbsp;</p>
 <h4 align="justify">Noted :&nbsp;</h4>
-<p>Error gabor.py di repo https://github.com/rtshadow/biometrics</p>
-<p>Edit baris 41 menjadi<strong>&nbsp;im_load[i * W + k, j * W + l] = int(utils.apply_kernel_at(</strong></p>
-<p>dan baris 45 menjadi&nbsp;<strong> j * W + l))</strong></p>
-<p align="left">Disini saya menambahkan juga procces Poincare untuk melihat singular Points dari fingerprint</p>
+<ul style="list-style-type: circle;">
+<li>Menggunakan beberapa referensi tools yang berbeda , karena sebagian tools dari&nbsp;<a href="https://github.com/rtshadow/biometrics">https://github.com/rtshadow/biometrics</a>&nbsp;errors</li>
+<li>Mengatasi error gabor.py di repo https://github.com/rtshadow/biometrics</li>
+<li>Edit baris 41 menjadi<strong>&nbsp;im_load[i * W + k, j * W + l] = int(utils.apply_kernel_at(&nbsp;</strong></li>
+<li>dan baris 45 menjadi&nbsp;<strong> j * W + l))</strong></li>
+<li>Disini saya menambahkan juga procces Poincare untuk melihat singular Points dari fingerprint</li>
+</ul>
 <h4 align="justify">Hasil proccess</h4>
 <p align="left">Gambar disini adalah sample dari sidik jari saya sendiri</p>
 <p><img src="https://raw.githubusercontent.com/L200160015/L200160015.github.io/master/fingerprint/preprocessing_final.PNG" alt="Hail sidik jari" width="650" height="240" /></p>
